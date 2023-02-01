@@ -1,13 +1,12 @@
-Version: 1.0
-
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
-
-EnableCodeIndexing: Yes
-UseSpacesForTab: Yes
-NumSpacesForTab: 2
-Encoding: UTF-8
-
-RnwWeave: Sweave
-LaTeX: pdfLaTeX
+// making a graph
+library(ggplot2)
+veri <- read.csv("C:/Users/Dilara/Desktop/veri.csv")
+View(veri)
+grafik = ggplot(veri,aes(Yillar,Yuzdeler))
+grafik
+grafik+geom_point(aes(colour=Ulkeler),position = "jitter")
+grafik+geom_line(aes(colour=Ulkeler),position = "jitter")
+grafik+geom_smooth(aes(colour=Ulkeler),position = "jitter")
+grafik+geom_point()+geom_smooth()
+grafik+geom_point()+geom_smooth(method = "lm")
+grafik+geom_point()+geom_smooth(method = "lm",se=FALSE)
