@@ -1,3 +1,4 @@
-# death_cause_of_smoking
-This project is about "How will the genetic change that will occur in smokers in the future change the death rate from cancer?" 
-it is a prediction to future project with R Studio done to find the answer to the question.
+# deadRatebySmoking
+Projenin amacı "Gelecekte sigara içenlerde meydana gelecek genetik değişim kanserden ölüm oranını nasıl değiştirecek?" 
+sorusuna bir cevap bulmaktır.
+Bu proje R dili ile eldeki veri setlerini kullanarak gelecekle ilgili durumu tahmin etme, ayrıca bir veri görselleştirme projesidir.
