@@ -23,8 +23,8 @@ veri$residuals <- model$residuals
 veri$predicted <- model$fitted.values
 predict(model, data.frame(Yillar = c(2019, 2020, 2021)))
 predict(model, data.frame(Yillar = c(2021, 2022, 2023)))
-```
 predict(model, data.frame(Yillar = c(2023, 2024, 2025)))
 predict(model, data.frame(Yillar = c(2030, 2035, 2040)))
 predict(model, data.frame(Yillar = c(2045, 2050, 2055)))
 predict(model, data.frame(Yillar = c(2060, 2070, 2080)))
+```
