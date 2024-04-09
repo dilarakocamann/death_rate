@@ -7,11 +7,11 @@ grafik
 grafik+geom_point(aes(colour=Ulkeler),position = "jitter")
 grafik+geom_line(aes(colour=Ulkeler),position = "jitter")
 grafik+geom_smooth(aes(colour=Ulkeler),position = "jitter")
-grafik+geom_point()+geom_smooth() //linear regression
+grafik+geom_point()+geom_smooth() # linear regression
 grafik+geom_point()+geom_smooth(method = "lm")
-grafik+geom_point()+geom_smooth(method = "lm",se=FALSE) //confidence interval
+grafik+geom_point()+geom_smooth(method = "lm", se=FALSE) # confidence interval
 
-// predictions
+//predictions
 library(tidyverse)
 qplot(Yillar, Yuzdeler, data=veri, geom = "point")
 qplot(Yillar, Yuzdeler, data=veri, geom = "point") + geom_smooth(method = "lm", se = FALSE)
