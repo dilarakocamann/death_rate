@@ -1,4 +1,2 @@
 # deadRatebySmoking
-Projenin amacı "Gelecekte sigara içenlerde meydana gelecek genetik değişim, kanserden ölüm oranını nasıl etkileyecek?" 
-sorusuna bir cevap bulmaktır.
-Bu proje R dili ile eldeki veri setlerini kullanarak gelecekle ilgili bir durum hakkında çıkarım yapma, ayrıca bir veri manipülasyonu ve veri görselleştirme projesidir.
+The aim of the project "How will the genetic change that will occur in smokers in the future affect the death rate from cancer?" is to find an answer to the question. This project is a project of making inferences about a future situation using the available data sets with the R language, as well as a data manipulation and data visualization project.
